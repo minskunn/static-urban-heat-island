@@ -10,8 +10,8 @@
       "type": "Feature",
       "properties": {
         "Name": "Albaicin",
-        "Urban form": "Residential area",
-        "Style": "Historic Moorish quarter",
+        "Urban form": "Residential historic area",
+        "Style": "Historic Moorish quarter, whitewashed houses, narrow winding streets",
         "Vegetation": "Patios, gardens",
         "temperature_mean": 46.1
       },
@@ -42,7 +42,7 @@
       "properties": {
         "Name": "Realejo",
         "Urban form": "Residential",
-        "Style": "Old Jewish quarter. Traditional Andalusian houses",
+        "Style": "Old Jewish quarter. Traditional Andalusian houses, irregular street layout, shaded plazas",
         "Vegetation": "Urban greenery and parks",
         "temperature_mean": 47.63
       },
@@ -69,8 +69,8 @@
       "type": "Feature",
       "properties": {
         "Name": "Centro",
-        "Urban form": "Commercial",
-        "Style": "Renaissance, neoclassical.  Narrow streets, large sqaures and historial landmark",
+        "Urban form": "Dense commercial area, historic core, mixed-use",
+        "Style": "Renaissance, neoclassical. Narrow streets, large sqaures and historial landmark",
         "Vegetation": "Urban parks",
         "temperature_mean": 45.07
       },
@@ -95,8 +95,8 @@
       "type": "Feature",
       "properties": {
         "Name": "Maracena",
-        "Urban form": "Residential suburban",
-        "Style": "Contemporary,  low rise townhouses",
+        "Urban form": "Suburban residential",
+        "Style": "Contemporary,  low rise townhouses, wider streets, modern planning",
         "Vegetation": "Suburban parks",
         "temperature_mean": 46.59,
         "temperature": "46,5"
@@ -123,7 +123,7 @@
         "Name": "Juncaril",
         "Urban form": "Industrial-Commercial zone",
         "Style": "Warehouse-dominated large-scale buildings",
-        "Vegetation": "Concrete-dominated",
+        "Vegetation": "Minimal greenery",
         "temperature_mean": 52.26
       },
       "geometry": {
@@ -211,9 +211,9 @@
       "type": "Feature",
       "properties": {
         "Name": "Zaidin",
-        "Urban form": "Mostly residential.  Educational institutions",
+        "Urban form": "High-density residential",
         "Style": "Contemporary,  apartment blocks",
-        "Vegetation": "Parks",
+        "Vegetation": "Parks and tree-lined streets",
         "temperature_mean": 48.06
       },
       "geometry": {

@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Urban Heat Island Map</title>
 
+    <link rel="stylesheet" href="style.css" />
+
     <!-- Leaflet CSS -->
     <link
       rel="stylesheet"
@@ -12,17 +14,54 @@
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
       crossorigin=""
     />
-
-    <!-- Simple CSS to give the map height -->
-    <style>
-      #map {
-        height: 100vh; /* Full screen height */
-      }
-    </style>
   </head>
   <body>
-    <!-- Map container -->
-    <div id="map"></div>
+    <div class="container">
+      <div class="text-section">
+        <h1>Urban Heat Island</h1>
+        <h2>
+          Granada’s Traditional Architecture and Its Role in Cooling the City
+        </h2>
+        <p>
+          Granada’s historical architecture, strongly influenced by Moorish
+          design principles, has long incorporated strategies to mitigate
+          excessive heat. Many traditional buildings feature whitewashed
+          exteriors, a technique that reflects rather than absorbs solar
+          radiation. Additionally, the presence of interior courtyards, or
+          patios, is a defining feature of Granada’s older homes. These
+          courtyards, often filled with vegetation and water features, create
+          cool microclimates, improving thermal regulation by promoting
+          evaporative cooling and providing much-needed shaded areas. These
+          design strategies ensure that despite high summer temperatures,
+          traditional urban spaces remain livable and comfortable, a stark
+          contrast to the heat retention seen in modern developments.
+        </p>
+        <h2>Understanding Urban Heat Island (UHI) and Its Causes</h2>
+        <p>
+          Urban areas tend to experience significantly higher temperatures than
+          their rural surroundings due to the Urban Heat Island (UHI) effect.
+          One way to assess this effect is through Land Surface Temperature
+          (LST) data. The intensity of UHI is influenced by several factors,
+          including the reduction of vegetation, which eliminates natural
+          cooling through shade and evaporation, and the widespread use of dark,
+          dense building materials that trap heat. The layout of urban areas
+          also plays a role, as do human activities such as vehicle emissions,
+          industrial operations, and extensive air conditioning use contribute
+          to higher overall heat accumulation. Addressing UHI is particularly
+          important for ensuring human comfort and sustainable urban living.
+        </p>
+        <p>
+          This spatial analysis is based on Landsat 8 Band 10 (thermal infrared)
+          data from July 2022, filtered for images with less than 10% cloud
+          cover, to identify urban heat hotspots in Granada.The neighborhood
+          boundaries used in this analysis are rough estimates and may not align
+          perfectly with official administrative divisions. The findings should
+          be interpreted as general trends rather than precise localized
+          measurements.
+        </p>
+      </div>
+      <div id="map"></div>
+    </div>
     <script
       src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
       integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="

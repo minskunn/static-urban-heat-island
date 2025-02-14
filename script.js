@@ -1,5 +1,5 @@
 // Initialize the map centered on Granada
-var map = L.map("map").setView([37.1773, -3.5986], 13);
+var map = L.map("map").setView([37.192, -3.5996], 13);
 
 // Add OpenStreetMap tiles
 //L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -27,7 +27,7 @@ fetch("areas_with_mean_temp.geojson")
       }),
       onEachFeature: (feature, layer) => {
         layer.bindPopup(
-          `<b>${feature.properties.Name}</b><br>Mean Temp: ${feature.properties.temperature_mean}°C`
+          `<b>${feature.properties.Name}</b><br>Average LST: ${feature.properties.temperature_mean}°C <br> Urban fabric: ${feature.properties.Style} <br> Vegatation: ${feature.properties.Vegetation}`
         );
       },
     }).addTo(map);
