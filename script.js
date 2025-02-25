@@ -1,5 +1,5 @@
 // Initialize the map centered on Granada
-var map = L.map("map").setView([37.192, -3.5996], 13);
+var map = L.map("map").setView([37.192, -3.5996], 12);
 
 // Add OpenStreetMap tiles
 //L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -33,15 +33,15 @@ fetch("areas_with_mean_temp.geojson")
     }).addTo(map);
   });
 
-// Function to determine color scale
+// Color scale
 function getColor(temp) {
   return temp > 50
-    ? "#FF5722"
+    ? "#FE8E22"
     : temp > 48
-    ? "#FF7043"
+    ? "#FFA451"
     : temp > 46
-    ? "#FF8A65"
+    ? "#FFB86A"
     : temp > 44
-    ? "#FFAB91"
+    ? "#FFCF92"
     : "#FFD54F";
 }
