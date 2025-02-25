@@ -1,18 +1,25 @@
 .container {
   display: flex;
-  height: 100vh; /* Full screen height */
+  height: 100vh;
 }
 
 .text-section {
-  width: 40%;
-  overflow-y: auto; /* Allows scrolling if content is long */
+  width: 50%;
+  overflow-y: auto;
+  color: #5a3d21;
+  padding: 40px;
+  line-height: 1.5;
 }
 
 #map {
-  width: 60%;
+  width: 50%;
   height: 100vh;
 }
 
 h1 {
+  text-align: center;
+}
+
+h2 {
   text-align: center;
 }
